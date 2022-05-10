@@ -192,7 +192,7 @@ body.menu-expanded .menu {
     background: var(--primary-color);
     width: 100vw;
     height: 100vh;
-    margin-top: var(--nav-height);
+    padding-top: var(--nav-height);
 }
  
 body.menu-expanded nav {
@@ -208,11 +208,10 @@ body.menu-expanded nav {
     font-weight: 700;
     font-size: 2.4rem;
     line-height: 3.1rem;
-
 }
 
 .menu ul li a {
-    color: var(--brand-beige);
+    color: white;
     text-decoration: none;
 } 
 
@@ -241,7 +240,7 @@ body.menu-expanded nav {
 }
 
 body.menu-expanded  .logo,
-body.menu-expanded button {
+body.menu-expanded nav button {
     position: relative;
     z-index: 100;
 }
@@ -250,7 +249,7 @@ body.menu-expanded  .logo path {
     fill: white;
 }
 
-body.menu-expanded button path {
+body.menu-expanded  button path {
     stroke: white;
 }
 
