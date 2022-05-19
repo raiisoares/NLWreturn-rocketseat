@@ -547,6 +547,7 @@ footer .social-links {
 
     nav#navigation .menu a.button:hover{
         background-color: var(--primary-color);
+        filter: brightness(1.3);
         border: none;
         color: white;
     }
